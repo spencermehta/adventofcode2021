@@ -28,7 +28,7 @@ def play(spaces, scores, player, r, instances):
 
 
 
-f = open('testinput.txt')
+f = open('input.txt')
 lines = f.readlines()
 spaces = list(map(lambda x: int(x.strip('\n').split()[-1]) , lines))
 
